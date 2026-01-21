@@ -2,7 +2,6 @@
 export{}
 
 const input: number = Number(process.argv[2]);
-console.log(typeof(input))
 let plus = 0;
 if (isNaN(input) || input < 1 || !Number.isInteger(input)) {
 } else {
