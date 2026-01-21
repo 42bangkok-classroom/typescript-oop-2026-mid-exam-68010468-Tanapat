@@ -8,9 +8,9 @@ else{
         if(i % 3 ===0 && i % 7 ===0){
             console.log("FizzBuzz");
         } else if(i % 3 === 0){
-            console.log('Fizz');
+            console.log("izz");
         }else if(i % 7 === 0){
-            console.log('Buzz');
+            console.log("Buzz");
         }
         else{
             console.log(i);
