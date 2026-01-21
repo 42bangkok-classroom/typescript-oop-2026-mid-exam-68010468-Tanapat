@@ -9,7 +9,7 @@ if (isNaN(input) || input < 1 || !Number.isInteger(input)) {
     for (let i = input; i > 0; i--) {
         let line = ""
         plus += 1;
-        for(let k = i; k > 0; k--){
+        for(let k = i-1; k > 0; k--){
             line += " "
         }
         for (let j = plus ; j > 0; j--) {
