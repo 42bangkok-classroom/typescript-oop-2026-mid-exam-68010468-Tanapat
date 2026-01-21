@@ -15,5 +15,6 @@ if (isNaN(input) || input < 1 || !Number.isInteger(input)) {
         for (let j = plus ; j > 0; j--) {
             line += j;
         }
+        console.log(line)
     }
 }
