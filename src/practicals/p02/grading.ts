@@ -2,12 +2,12 @@
 const input = process.argv[2];
 
 if (input === undefined || input.trim() === "") {
-  console.log("Invalid Input");
+  console.log("Invalid input");
 } else {
   const point = Number(input);
 
   if (Number.isNaN(point) || point < 0 || point > 100) {
-    console.log("Invalid Input");
+    console.log("Invalid input");
   }
     else if (point >= 80) {
         console.log("Grade is A");
